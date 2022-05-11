@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <div>
-      <div id="service">
+      <div id="services">
         <div className="container my-5 py-5">
           <div className="row">
             <div className="col-12">
