@@ -18,8 +18,8 @@ const Services = () => {
             <div className="col-md-4">
               <div class="card p-3 border-0">
                 <div class="card-body text-center">
-                    <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customisable</h5>
+                    <i className="fa fa-microphone fa-4x mb-4 text-primary"></i>
+                  <h5 class="card-title mb-3 fs-4 fw-bold">Recording and Mixing</h5>
                   <p class="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -30,8 +30,8 @@ const Services = () => {
             <div className="col-md-4">
               <div class="card p-3 border-0">
                 <div class="card-body text-center">
-                    <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customisable</h5>
+                    <i className="fa fa-home fa-4x mb-4 text-primary"></i>
+                  <h5 class="card-title mb-3 fs-4 fw-bold">Studio Bookings</h5>
                   <p class="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -42,8 +42,8 @@ const Services = () => {
             <div className="col-md-4">
               <div class="card p-3 border-0">
                 <div class="card-body text-center">
-                    <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customisable</h5>
+                    <i className="fa fa-phone fa-4x mb-4 text-primary"></i>
+                  <h5 class="card-title mb-3 fs-4 fw-bold">Contact Support</h5>
                   <p class="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -56,8 +56,8 @@ const Services = () => {
             <div className="col-md-4">
               <div class="card p-3 border-0">
                 <div class="card-body text-center">
-                    <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customisable</h5>
+                    <i className="fa fa-music fa-4x mb-4 text-primary"></i>
+                  <h5 class="card-title mb-3 fs-4 fw-bold">Sound Production</h5>
                   <p class="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -68,8 +68,8 @@ const Services = () => {
             <div className="col-md-4">
               <div class="card p-3 border-0">
                 <div class="card-body text-center">
-                    <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customisable</h5>
+                    <i className="fa fa-address-book fa-4x mb-4 text-primary"></i>
+                  <h5 class="card-title mb-3 fs-4 fw-bold">Corporate Support</h5>
                   <p class="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -80,8 +80,8 @@ const Services = () => {
             <div className="col-md-4">
               <div class="card p-3 border-0">
                 <div class="card-body text-center">
-                    <i className="fa fa-cogs fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Highly Customisable</h5>
+                    <i className="fa fa-desktop fa-4x mb-4 text-primary"></i>
+                  <h5 class="card-title mb-3 fs-4 fw-bold">Online Support</h5>
                   <p class="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
