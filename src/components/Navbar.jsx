@@ -26,7 +26,7 @@ const Navbar = (props) => {
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
         </li>
       </ul>
-      <NavLink className="navbar-brand fw-bolder fs-4 mx-auto text-align-center" to="/">VENUES</NavLink>
+      <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">VENUES</NavLink>
 
       {props.auth ?
       <>
