@@ -2,7 +2,7 @@ import React from 'react';
 import About from './About';
 import Contact from './Contact';
 import Services from './Services';
-//import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -15,8 +15,8 @@ const Home = () => {
                         <p className="text-white lead text-center fs-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <div className="buttons d-flex justify-content-center">
-                            <button className="btn btn-light me-4 rounded-pill px-4 py-2">Get Quote</button>
-                            <button className="btn btn-outline-light rounded-pill px-4 py-2">Our Services</button>
+                            <NavLink to="/contact" className="btn btn-light me-4 rounded-pill px-4 py-2">Get Quote</NavLink>
+                            <NavLink to="/services" className="btn btn-outline-light rounded-pill px-4 py-2">Our Services</NavLink>
                         </div>
                     </div>
                 </div>
