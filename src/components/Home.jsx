@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import About from './About';
+import Contact from './Contact';
+import Services from './Services';
+//import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -18,6 +22,9 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        <About/>
+        <Services/>
+        <Contact/>
     </div>
   );
 }
