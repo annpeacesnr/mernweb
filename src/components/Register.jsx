@@ -99,7 +99,6 @@ const Register = () => {
                   onChange={handleInput}
                 />
                 <div id="emailHelp" className="form-text">
-                  We'll never share your email with anyone else.
                 </div>
               </div>
               <div className="mb-3">
@@ -122,7 +121,7 @@ const Register = () => {
                   id="exampleCheck1"
                 />
                 <label className="form-check-label" htmlFor="exampleCheck1">
-                  I Agree Terms and Conditions
+                  I Agree to the Terms and Conditions
                 </label>
               </div>
               <button
