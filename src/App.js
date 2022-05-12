@@ -5,20 +5,10 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-//import {Route} from 'react-router-dom';
-//import {BrowserRouter} from 'react-router-dom';
-//import {Route, Switch} from 'react-router';
-//import { Routes ,Route } from 'react-router-dom';
-import { Route, Routes } from "react-router";
-//import { Router, Route, Routes } from 'react-router-dom';
-//import { Switch ,Route } from 'react-router-dom';
-//import {Route, Routes} from 'react-router';
-/*import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";*/
-//import {Switch} from 'react-router';
+import {Route, Routes} from 'react-router';
+import Login from './components/Login';
+import Register from './components/Register';
+//import Protectedroute from './ProtectedRoute';
 
 function App() {
   return (
@@ -29,6 +19,8 @@ function App() {
     <Route exact path="/about" element={<About/>} />
     <Route exact path="/services" element={<Services/>} />
     <Route exact path="/contact" element={<Contact/>} />
+    <Route exact path="/login" component={<Login/>} />
+    <Route exact path="/register" component={<Register/>} />
     </Routes>
     <Footer/>
     </>

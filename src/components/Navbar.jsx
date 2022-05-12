@@ -20,13 +20,13 @@ const Navbar = (props) => {
           <NavLink className="nav-link" to="/about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/services">Services</NavLink>
+          <NavLink className="nav-link" to="/service">Services</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/contact">Contact</NavLink>
         </li>
       </ul>
-      <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">VENUES</NavLink>
+      <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">FINE ART</NavLink>
 
       {props.auth ?
       <>
@@ -39,7 +39,7 @@ const Navbar = (props) => {
         <>
       <NavLink to="/dashboard" className="btn btn-outline-primary ms-2 px-4 rounded-pill">
         
-      <i className="fa fa-user-plus me-2"></i>Register</NavLink>
+      <i className="fa fa-user-plus me-2"></i>Dashboard</NavLink>
       <NavLink to="/logout" className="btn btn-outline-primary ms-2 px-4 rounded-pill">
       <i className="fa fa-sign-out me-2"></i>Logout</NavLink>
       </>

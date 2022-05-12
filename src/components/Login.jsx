@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { useHistory } from "react-router";
+import { useNavigate } from "react-router";
 
 const Login = () => {
 
-  const history = useHistory()
+  const navigate = useNavigate()
 
   const [user, setUser] = useState({
     email : '',
@@ -39,7 +39,7 @@ const Login = () => {
       }else{
         window.alert("Login Successfull");
         window.location.reload();
-        history.push('/')
+        navigate.push('/')
         // Token is generated When we Logged In.
         // Now we need to create Schema for Messages
       }
