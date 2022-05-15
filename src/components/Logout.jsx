@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { navigate, useNavigate } from 'react-router';
+import { useNavigate } from 'react-router';
 
 const Logout = () => {
 

@@ -55,10 +55,10 @@ function App() {
     <Route exact path="/about" element={<About/>} />
     <Route exact path="/services" element={<Services/>} />
     <Route exact path="/contact" element={<Contact/>} />
-    <Protectedroute exact path="/login" element={<Login/>} auth={auth1}/>
-    <Protectedroute exact path="/register" element={<Register/>} auth={auth1}/>
-    <Protectedroute exact path="/dashboard" element={<Dashboard/>} auth={auth}/>
-    <Protectedroute exact path="/logout" element={<Logout/>} auth={auth}/>
+    <Route exact path="/login" element={<Login/>} auth={auth1}/>
+    <Route exact path="/register" element={<Register/>} auth={auth1}/>
+    <Route exact path="/dashboard" element={<Dashboard/>} auth={auth}/>
+    <Route exact path="/logout" element={<Logout/>} auth={auth}/>
     </Routes>
     <Footer/>
     </>
