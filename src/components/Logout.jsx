@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router';
+import { navigate, useNavigate } from 'react-router';
 
 const Logout = () => {
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const logout = async () => {
         try {
@@ -19,7 +19,7 @@ const Logout = () => {
             if(res.status === 401 || !res ){
                 window.alert("Please Logout Later");
             }else{
-                history.push('/');
+                navigate.push('/');
                 window.location.reload()
             }
         } catch (error) {
