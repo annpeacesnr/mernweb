@@ -51,7 +51,7 @@ const Dashboard = () => {
                       <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
                       <polyline points="13 2 13 9 20 9"></polyline>
                     </svg>
-                    Orders
+                    Booking History
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -73,7 +73,7 @@ const Dashboard = () => {
                       <circle cx="20" cy="21" r="1"></circle>
                       <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
                     </svg>
-                    Products
+                    Cart
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -118,7 +118,7 @@ const Dashboard = () => {
                       <line x1="12" y1="20" x2="12" y2="4"></line>
                       <line x1="6" y1="20" x2="6" y2="14"></line>
                     </svg>
-                    Reports
+                    Generate Reports
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -140,13 +140,13 @@ const Dashboard = () => {
                       <polyline points="2 17 12 22 22 17"></polyline>
                       <polyline points="2 12 12 17 22 12"></polyline>
                     </svg>
-                    Integrations
+                    My Apps
                   </NavLink>
                 </li>
               </ul>
 
               <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                <span>Saved reports</span>
+                <span>Booking History</span>
                 <NavLink
                   className="link-secondary"
                   to="#"
@@ -193,7 +193,7 @@ const Dashboard = () => {
                       <line x1="16" y1="17" x2="8" y2="17"></line>
                       <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
-                    Current month
+                    Past Week
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -217,7 +217,7 @@ const Dashboard = () => {
                       <line x1="16" y1="17" x2="8" y2="17"></line>
                       <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
-                    Last quarter
+                    Past Month
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -241,7 +241,7 @@ const Dashboard = () => {
                       <line x1="16" y1="17" x2="8" y2="17"></line>
                       <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
-                    Social engagement
+                    Past Quarter
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -265,7 +265,7 @@ const Dashboard = () => {
                       <line x1="16" y1="17" x2="8" y2="17"></line>
                       <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
-                    Year-end sale
+                    Past Year
                   </NavLink>
                 </li>
               </ul>
@@ -332,130 +332,130 @@ const Dashboard = () => {
               </div>
             </div>
 
-            <h2>Section title</h2>
+            <h2>My Bookings</h2>
             <div className="table-responsive">
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Header</th>
-                    <th scope="col">Header</th>
-                    <th scope="col">Header</th>
-                    <th scope="col">Header</th>
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Date Booked</th>
+                    <th scope="col">Price (p/n)</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>1,001</td>
-                    <td>random</td>
-                    <td>data</td>
-                    <td>placeholder</td>
-                    <td>text</td>
+                    <td>1</td>
+                    <td>Jane Doe</td>
+                    <td>Greystone Street, Brighton</td>
+                    <td>15-4-22</td>
+                    <td>£320</td>
                   </tr>
                   <tr>
-                    <td>1,002</td>
-                    <td>placeholder</td>
-                    <td>irrelevant</td>
-                    <td>visual</td>
-                    <td>layout</td>
+                    <td>2</td>
+                    <td>Ian Price</td>
+                    <td>The Bird House, Llandudno</td>
+                    <td>15-4-22</td>
+                    <td>£112</td>
                   </tr>
                   <tr>
-                    <td>1,003</td>
-                    <td>data</td>
-                    <td>rich</td>
-                    <td>dashboard</td>
-                    <td>tabular</td>
+                    <td>3</td>
+                    <td>Lesley Gunn</td>
+                    <td>The Cottage, Grange-Over-Sands</td>
+                    <td>15-4-22</td>
+                    <td>£94</td>
                   </tr>
                   <tr>
-                    <td>1,003</td>
-                    <td>information</td>
-                    <td>placeholder</td>
-                    <td>illustrative</td>
-                    <td>data</td>
+                    <td>4</td>
+                    <td>Paul Hartle</td>
+                    <td>Finnick Street, Devon</td>
+                    <td>16-4-22</td>
+                    <td>£114</td>
                   </tr>
                   <tr>
-                    <td>1,004</td>
-                    <td>text</td>
-                    <td>random</td>
-                    <td>layout</td>
-                    <td>dashboard</td>
+                    <td>5</td>
+                    <td>John Summers</td>
+                    <td>Gower Street, Newcastle</td>
+                    <td>16-4-22</td>
+                    <td>£67</td>
                   </tr>
                   <tr>
-                    <td>1,005</td>
-                    <td>dashboard</td>
-                    <td>irrelevant</td>
-                    <td>text</td>
-                    <td>placeholder</td>
+                    <td>6</td>
+                    <td>Tess Pearson</td>
+                    <td>Upper Mill Apartments, Manchester</td>
+                    <td>16-4-22</td>
+                    <td>£94</td>
                   </tr>
                   <tr>
-                    <td>1,006</td>
-                    <td>dashboard</td>
-                    <td>illustrative</td>
-                    <td>rich</td>
-                    <td>data</td>
+                    <td>7</td>
+                    <td>Albert Shedd</td>
+                    <td>The Old Lake House, Windermere</td>
+                    <td>17-4-22</td>
+                    <td>£96</td>
                   </tr>
                   <tr>
-                    <td>1,007</td>
-                    <td>placeholder</td>
-                    <td>tabular</td>
-                    <td>information</td>
-                    <td>irrelevant</td>
+                    <td>8</td>
+                    <td>George Carnall</td>
+                    <td>Magpie Cottage, Newport</td>
+                    <td>18-4-22</td>
+                    <td>£99</td>
                   </tr>
                   <tr>
-                    <td>1,008</td>
-                    <td>random</td>
-                    <td>data</td>
-                    <td>placeholder</td>
-                    <td>text</td>
+                    <td>9</td>
+                    <td>Ashley Todd</td>
+                    <td>Leamington Parade, Chichester</td>
+                    <td>19-4-22</td>
+                    <td>£240</td>
                   </tr>
                   <tr>
-                    <td>1,009</td>
-                    <td>placeholder</td>
-                    <td>irrelevant</td>
-                    <td>visual</td>
-                    <td>layout</td>
+                    <td>10</td>
+                    <td>Jason Weiss</td>
+                    <td>Bridge Street, Maidstone</td>
+                    <td>20-4-22</td>
+                    <td>£300</td>
                   </tr>
                   <tr>
-                    <td>1,010</td>
-                    <td>data</td>
-                    <td>rich</td>
-                    <td>dashboard</td>
-                    <td>tabular</td>
+                    <td>11</td>
+                    <td>Peter Truman</td>
+                    <td>Turnpike Road, Weston-Super-Mare</td>
+                    <td>20-4-22</td>
+                    <td>£96</td>
                   </tr>
                   <tr>
-                    <td>1,011</td>
-                    <td>information</td>
-                    <td>placeholder</td>
-                    <td>illustrative</td>
-                    <td>data</td>
+                    <td>12</td>
+                    <td>Harry Preston</td>
+                    <td>Finston Avenue, Wiltshire</td>
+                    <td>20-4-22</td>
+                    <td>£111</td>
                   </tr>
                   <tr>
-                    <td>1,012</td>
-                    <td>text</td>
-                    <td>placeholder</td>
-                    <td>layout</td>
-                    <td>dashboard</td>
+                    <td>13</td>
+                    <td>Bob Guild</td>
+                    <td>The Boat House, Main Parade, Brighton</td>
+                    <td>20-4-22</td>
+                    <td>£113</td>
                   </tr>
                   <tr>
-                    <td>1,013</td>
-                    <td>dashboard</td>
-                    <td>irrelevant</td>
-                    <td>text</td>
-                    <td>visual</td>
+                    <td>14</td>
+                    <td>Patrick Shakur</td>
+                    <td>The Old Ivy, Castleton</td>
+                    <td>22-4-22</td>
+                    <td>£290</td>
                   </tr>
                   <tr>
-                    <td>1,014</td>
-                    <td>dashboard</td>
-                    <td>illustrative</td>
-                    <td>rich</td>
-                    <td>data</td>
+                    <td>15</td>
+                    <td>Nina Nesbitt</td>
+                    <td>Frodsham Street, Turtleton</td>
+                    <td>23-4-22</td>
+                    <td>£76</td>
                   </tr>
                   <tr>
-                    <td>1,015</td>
-                    <td>random</td>
-                    <td>tabular</td>
-                    <td>information</td>
-                    <td>text</td>
+                    <td>16</td>
+                    <td>James Turner</td>
+                    <td>Weston Road, Hartlepool</td>
+                    <td>23-4-22</td>
+                    <td>£230</td>
                   </tr>
                 </tbody>
               </table>

@@ -41,7 +41,7 @@ const Navbar = (props) => {
               </li>
             </ul>
             <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">
-              FINE ART
+              VENUES
             </NavLink>
 
             {props.auth ? (
