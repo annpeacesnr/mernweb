@@ -13,6 +13,39 @@ import Logout from './components/Logout';
 import Protectedroute from './ProtectedRoute';
 
 function App() {
+
+  // Check If User is Logged In
+  const [auth, setauth] = useState(false);
+  const [auth1, setauth1] = useState(true);
+
+  const isLoggedIn = async () => {
+    try {
+      const res = await fetch('/auth', {
+        method : "GET",
+        headers : {
+          Accept : "application/json",
+          "Content-Type" : "application/json"
+        },
+        credentials : "include"
+      });
+
+      if(res.status === 200){
+        setauth(true)
+        setauth1(false)
+      }
+      if(res.status === 401){
+        setauth(false)
+        setauth1(true)
+      }
+
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+  useEffect(() => {
+    isLoggedIn();
+  }, []);
   return (
     <>
     <Navbar/>
@@ -21,10 +54,10 @@ function App() {
     <Route exact path="/about" element={<About/>} />
     <Route exact path="/services" element={<Services/>} />
     <Route exact path="/contact" element={<Contact/>} />
-    <Protectedroute exact path="/login" element={<Login/>} />
-    <Protectedroute exact path="/register" element={<Register/>} />
-    <Protectedroute exact path="/dashboard" element={<Dashboard/>} />
-    <Protectedroute exact path="/logout" element={<Logout/>} />
+    <Protectedroute exact path="/login" element={<Login/>} auth={auth1}/>
+    <Protectedroute exact path="/register" element={<Register/>} auth={auth1}/>
+    <Protectedroute exact path="/dashboard" element={<Dashboard/>} auth={auth}/>
+    <Protectedroute exact path="/logout" element={<Logout/>} auth={auth}/>
     </Routes>
     <Footer/>
     </>
