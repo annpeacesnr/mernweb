@@ -49,11 +49,11 @@ function App() {
   }, []);
   return (
     <>
-    <Navbar/>
+    <Navbar auth={auth1}/>
     <Routes>
     <Route exact path="/" element={<Home/>} />
     <Route exact path="/about" element={<About/>} />
-    <Route exact path="/services" element={<Services/>} />
+    <Route exact path="/service" element={<Services/>} />
     <Route exact path="/contact" element={<Contact/>} />
     <Route exact path="/login" element={<Login/>} auth={auth1}/>
     <Route exact path="/register" element={<Register/>} auth={auth1}/>
