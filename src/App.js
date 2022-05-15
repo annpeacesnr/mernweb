@@ -9,7 +9,8 @@ import {Route, Routes} from 'react-router';
 import Login from './components/Login';
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
-//import Protectedroute from './ProtectedRoute';
+import Logout from './components/Logout';
+import Protectedroute from './ProtectedRoute';
 
 function App() {
   return (
@@ -20,10 +21,10 @@ function App() {
     <Route exact path="/about" element={<About/>} />
     <Route exact path="/services" element={<Services/>} />
     <Route exact path="/contact" element={<Contact/>} />
-    <Route exact path="/login" element={<Login/>} />
-    <Route exact path="/register" element={<Register/>} />
-    <Route exact path="/dashboard" element={<Dashboard/>} />
-    <Route exact path="/logout" element={<Logout/>} />
+    <Protectedroute exact path="/login" element={<Login/>} />
+    <Protectedroute exact path="/register" element={<Register/>} />
+    <Protectedroute exact path="/dashboard" element={<Dashboard/>} />
+    <Protectedroute exact path="/logout" element={<Logout/>} />
     </Routes>
     <Footer/>
     </>
