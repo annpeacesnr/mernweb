@@ -15,8 +15,8 @@ const Home = () => {
                         <p className="text-white lead text-center fs-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <div className="buttons d-flex justify-content-center">
-                            <NavLink to="/contact" className="btn btn-light me-4 rounded-pill px-4 py-2">Get Quote</NavLink>
-                            <NavLink to="/services" className="btn btn-outline-light rounded-pill px-4 py-2">Our Services</NavLink>
+                            <NavLink to="/contact" className="btn btn-light me-4 rounded-pill px-4 py-2">Get Started</NavLink>
+                            <NavLink to="/services" className="btn btn-outline-light rounded-pill px-4 py-2">Create Booking</NavLink>
                         </div>
                     </div>
                 </div>

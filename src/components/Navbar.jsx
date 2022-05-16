@@ -31,7 +31,7 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/service">
-                  Services
+                  Listings
                 </NavLink>
               </li>
               <li className="nav-item">

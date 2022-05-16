@@ -20,7 +20,7 @@ const Register = () => {
     setUser({...user, [name]:value});
   }
 
-  // Handle Submit
+  //handle form submit async and await
   const handleSubmit = async (event)=>{
     event.preventDefault();
     // Object DeStructuring
